@@ -108,7 +108,7 @@ function generateQA(){
    var y=1+Math.round(Math.random()*9);
    correctAnswer= x*y;
 
-   document.getElementById("question").innerHTML=x + "x" + y;
+   document.getElementById("question").innerHTML=x + "*" + y;
    var correctPosition=1+Math.round(3*Math.random());
    document.getElementById("box"+correctPosition).innerHTML=correctAnswer;// fill one box with the correct answer.
 
